@@ -1,3 +1,3 @@
 # Psychic-Game
 
-In this game you press a letter key and the psychic computer guesses what you pressed
+In this game you test your psychic abilities by trying to guess what letter the computer is thinking of

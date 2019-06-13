@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Can you read my mind?</title>
-    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-<body>
 
-    <h1>Psychic Game - Test your psychic abilities!</h1>
-    <div>
-        <p id="directions-text">Press any letter to guess what letter I'm thinking of</p>
-        <p id="wins-text">Wins:</p>
-        <p id="losses-text">Losses:</p>
-        <p id="guessesLeft-text">Number of guesses remaining:</p>
-        <p id="guessesSoFar-text">Letters guessed so far:</p>
+<body>
+    <div class="container">
+        <div class="row header">
+            <div class="col-12 text-light">
+                <h1 class="text-center">Psychic Game - Test your psychic abilities!</h1>
+                <h5 class="text-center">Press any letter to guess what letter I'm thinking of, but I'm only giving you 9
+                    chances!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <h4 class="card-header text-center">Number of guesses remaining</h4>
+                    <div id="guessesLeft-text" class="card-body text-center your-score"></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h4 class="card-header text-center">Wins:</h4>
+                    <div id="wins-text" class="card-body text-center wins-text"></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h4 class="card-header text-center">Losses:</h4>
+                    <div id="losses-text" class="card-body text-center losses-text"></div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <h4 class="card-header text-center">Letters you've guesses already</h4>
+                    <div id="guessesSoFar-text" class="card-body text-center losses-text"></div>
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
+
 
     <script src="assets/javascript/game.js"></script>
 
 </body>
+
 </html>

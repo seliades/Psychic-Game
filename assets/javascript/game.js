@@ -51,10 +51,10 @@ document.onkeyup = function (event) {
       }
       
       // Display the guesses left/so far, and wins/losses
-      winsText.textContent = "Wins: " + wins;
-      lossesText.textContent = "Losses: " + losses;
-      guessesLeftText.textContent = "Number of guesses remaining: " + guessesLeft;
-      guessesSoFarText.textContent = "Letters guessed so far: " + guessesSoFar;
+      winsText.textContent = wins;
+      lossesText.textContent = losses;
+      guessesLeftText.textContent = guessesLeft;
+      guessesSoFarText.textContent = guessesSoFar;
       
     }
     }
